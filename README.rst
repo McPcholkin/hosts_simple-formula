@@ -1,5 +1,5 @@
 ===
-hosts 
+hosts   
 ===
 
 Simple formula to manage /etc/hosts file by pillar.
