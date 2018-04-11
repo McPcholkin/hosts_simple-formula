@@ -1,4 +1,4 @@
-{# main hosts #}
+{# basic hosts #}
 
 127.0.0.1:
   host.only:
