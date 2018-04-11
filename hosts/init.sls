@@ -1,10 +1,11 @@
-{# basic hosts #}
+{# main hosts #}
 
 127.0.0.1:
   host.only:
     - hostnames:
-      - localhost
       - {{ grains['fqdn'] }}
+      - localhost
+      - {{ grains['host'] }}
 
 127.0.1.1:
   host.only:
