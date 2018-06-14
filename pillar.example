@@ -1,6 +1,6 @@
 # Pillar file complet optional
 # hostname may be one as string
-# or multiple as dict
+# or multiple as list
 
 hosts:
   test1:
@@ -11,7 +11,6 @@ hosts:
     ip: 192.168.1.101
 
   test2:
-    host_absent: False
     hostnames: test3.example.com
     ip: 8.5.5.5
 
